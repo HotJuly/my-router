@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="h2" @click="handleClick">跳转到home的xixi</div>
+    <router-link path="/about">跳转到about</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  methods:{
+    handleClick(){
+      this.router.push('/home/xixi');
+    }
   }
 }
 </script>
