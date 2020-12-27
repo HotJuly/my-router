@@ -1,7 +1,7 @@
 ## 剖析Vue-Router实现原理 - 如何实现单页面应用(SPA)
 
 > `本文能帮你做什么？`<br/>
-> `1、了解vue-router的双向数据绑定原理以及核心代码模块`<br/>
+> `1、了解vue-router的显示原理以及核心代码模块`<br/>
 > `2、缓解好奇心的同时了解如何实现单页面应用`(SPA)<br/>
 > `为了便于说明原理与实现，本文相关代码主要摘自[vue-router源码](https://github.com/vuejs/vue-router), 并进行了简化改造，相对较简陋，暂时只考虑了vue-router中的history模式的核心实现,内部未实现导航守卫，也难免存在一些问题，欢迎大家指正。不过这些并不会影响大家的阅读和理解，相信看完本文后对大家在阅读vue-router源码的时候会更有帮助`<br/>
 > `本文所有相关代码均在github上面可找到 https://github.com/HotJuly/my-router`<br/>
@@ -168,8 +168,8 @@ export default {
 
 效果一(路由路径:/home/xixi):
 
-![效果一](https://raw.githubusercontent.com/wiki/HotJuly/my-router/xiaoguo1.png)
+![效果一](http://chuantu.xyz/t6/741/1609094245x1700338641.png)
 
 效果二(路由路径:/about):
 
-![效果二](https://raw.githubusercontent.com/wiki/HotJuly/my-router/xiaoguo2.png)
+![效果二](http://chuantu.xyz/t6/741/1609094324x1700340463.png)
