@@ -1,5 +1,4 @@
 import Vue from 'vue';
-// import RouterView from './RouterView';
 import RouterView from './components/view';
 import RouterLink from './components/link';
 // let MyRouter={};

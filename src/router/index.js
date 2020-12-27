@@ -1,6 +1,5 @@
-// import VueRouter from ''
 import Vue from 'vue';
-import MyRouter from '../router-demo';
+import MyRouter from '../my-router';
 import Home from '../components/Home';
 import About from '../components/About';
 import Xixi from '../components/Xixi';

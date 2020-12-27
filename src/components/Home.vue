@@ -1,6 +1,7 @@
 <template>
-    <div>
-        I'm Home Page
+    <div id="homeContainer">
+        <h1>I'm Home Page</h1>
+        <p>我Home组件是一级路由组件</p>
         <router-view></router-view>
     </div>
 </template>
@@ -11,6 +12,10 @@ export default {
 }
 </script>
 
-<style lang="stylus">
-
+<style>
+#homeContainer{
+    width:300px;
+    height:300px;
+    border: 1px solid;
+}
 </style>
