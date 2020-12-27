@@ -168,7 +168,7 @@ export default {
 
 效果一(路由路径:/home/xixi):
 
-![效果一](http://chuantu.xyz/t6/741/1609094245x1700338641.png)
+![效果一](http://chuantu.xyz/t6/741/1609094245x1700338641.png) 
 
 效果二(路由路径:/about):
 
