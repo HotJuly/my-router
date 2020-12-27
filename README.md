@@ -168,8 +168,8 @@ export default {
 
 效果一(路由路径:/home/xixi):
 
-![image-20201227231755354](C:\Users\CHH\AppData\Roaming\Typora\typora-user-images\image-20201227231755354.png)
+![效果一](https://raw.githubusercontent.com/wiki/HotJuly/my-router/xiaoguo1.png)
 
 效果二(路由路径:/about):
 
-![image-20201227231819855](C:\Users\CHH\AppData\Roaming\Typora\typora-user-images\image-20201227231819855.png)
+![效果二](https://raw.githubusercontent.com/wiki/HotJuly/my-router/xiaoguo2.png)
